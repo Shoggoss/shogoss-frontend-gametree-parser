@@ -1,6 +1,6 @@
 {
   "name": "shogoss-frontend-gametree-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A parser for the frontend game tree for game of ShoGoSs",
   "main": "dist/index.js",
   "scripts": {

@@ -2,7 +2,7 @@ import { Move } from "shogoss-core";
 import { munch_one } from "shogoss-parser";
 
 // 将来的には type GameTree<T> = { payload: T, cursor: boolean, children: Tree<T>[] }; とかにしたい
-type GameTree<T> = { main: T[], unevaluated: T[] };
+export type GameTree<T> = { main: T[], unevaluated: T[] };
 
 export function parse_cursored(s: string): GameTree<Move> {
 	const ans: GameTree<Move> = { main: [], unevaluated: [] };
